@@ -1,0 +1,146 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #8f8fe2;
+    margin: 0px;
+}
+
+header {
+    background-color: #5670a4;
+    color: white;
+    text-align: center;
+    margin: 0px;
+    padding: 15px;
+}
+
+nav {
+    background-color: #eff2ee;
+    font-family: Arial;
+    text-align: center;
+}
+
+nav a {
+    display: inline-block;
+    padding: 20px 20px;
+
+}
+
+nav a:hover {
+    background-color: #674cae;
+    color: white;
+}
+
+footer {
+    background-color: #cda8d8;
+    color: #666666;
+    text-align: center;
+    padding: 10px;
+}
+
+main {
+    padding: 100px;
+}
+
+article {
+    float: left;
+    width: auto;
+}
+
+
+.clearfix {
+    clear: both;
+}
+
+.s1 {
+    background-color: #b7b7e8;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+}
+
+.s2 {
+    background-color: #a7d4e8;
+    padding: 100px;
+    margin: 150px;
+    border-radius: 10px;
+}
+
+.s3 {
+    background-color: #d7b6f6;
+    padding: 60px;
+    margin: 70px;
+    border-radius: 10px;
+}
+
+.s4 {
+    background-color: #9e987b;
+    padding: 70px;
+    margin: 60px;
+    border-radius: 10px;
+}
+
+.p1 {
+    float: right;
+    width: 70%;
+    text-align: justify;
+    font-family: 標楷體;
+    font-size: x-large;
+}
+
+.img1 {
+    float: left;
+    width: 33%;
+}
+
+.img2 {
+    float: right;
+    width: 33%;
+}
+
+.div1 {
+    column-count: 3;
+    column-width: 150px;
+    font-family: 標楷體;
+    font-size: x-large;
+    border: 5px solid white;
+}
+
+.div2 {
+    column-count: 2;
+    column-width: 100px;
+    column-rule: white solid 3px;
+    text-align: center;
+    font-family: 標楷體;
+    font-size: x-large;
+    border: 10px solid white;
+}
+
+.div3 {
+    column-count: 3;
+    column-width: 200px;
+    column-rule: #666666 solid 3px;
+    text-align: center;
+    font-family: 標楷體;
+    font-size: x-large;
+}
+
+@media screen and (max-width: 800px) {
+
+    article,
+    aside {
+        float: none;
+        width: 100%;
+    }
+
+    .card {
+        padding: 10px;
+        margin: 15px 0px;
+    }
+
+    img {
+        max-width: 100%;
+        height: 90%;
+    }
+}
